@@ -1,3 +1,5 @@
+import img from "./assets/img/first_img.jpg";
+
 function App() {
   return (
     <>
@@ -9,11 +11,7 @@ function App() {
         doloribus.
       </p>
 
-      <img
-        src=".\src\assets\img\first_img.jpg"
-        alt="First Blog Image"
-        class="img-frame"
-      />
+      <img src={img} alt="First Blog Image" class="img-frame" />
     </>
   );
 }
